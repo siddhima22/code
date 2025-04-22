@@ -108,3 +108,8 @@ int main() {
 int yywrap() {
     return 1;
 }
+
+
+lex file.l
+gcc lex.yy.c -lfl
+./a.out
